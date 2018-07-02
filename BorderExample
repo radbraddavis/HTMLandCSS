@@ -1,0 +1,27 @@
+<!--This is a code I made to show how I create a border and what the different settings will do.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body 	{background-color: Black;}
+h1   	{color: White;}
+h1	{align: center;}
+p    	{color: red;}
+</style>
+</head>
+
+
+<body>
+<h1 align="center" style="border:1px; border-style:solid; border-color:red; padding: .2em;" > Border is 1px. Border is solid. Padding is .2 . Centered. </h1>
+<h1 align="center" style="border:2px; border-style:double; border-color:red; padding: .1em;" > Border is 2px. Border is double. Padding is .1 . Centered. </h1>
+<h1 align="left" style="border:5px; border-style:dotted; border-color:red; padding: .5em;" > Border is 5px. Border is dotted. Padding is .5 . Left. </h1>
+<h1 align="right" style="border:10px; border-style:dashed; border-color:red; padding: 1em;" > Border is 10px. Border is dashed. Padding is 1 . Right. </h1>
+<h1 align="justify" style="border:15px; border-style:double; border-color:red; padding: 3em;" > Border is 15px. Border is double. Padding is 3 . Justify. </h1>
+<h1 align="center" style="border:20px; border-style:groove; border-color:red; padding: 5em;" > Border is 20px. Border is groove. Padding is 5 . Centered. </h1>
+<h1 align="left" style="border:25px; border-style:ridge; border-color:red; padding: 1em;" > Border is 25px. Border is ridge. Padding is 1 . Left. </h1>
+<p align="center">This assigns attributs in head style.</p>
+
+
+</body>
+</html>
