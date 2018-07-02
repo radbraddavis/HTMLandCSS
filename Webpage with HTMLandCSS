@@ -1,0 +1,47 @@
+<!-- This is my first attempt to start a web page from scratch. Currently, I am only using html, but I will add in other features at a later time.-->
+
+<!DOCTYPE html>
+<html>
+	
+	<style>
+	body {background-size: cover;} 				<!-- This makes the image used as the background a single pic that covers screen.-->
+	</style>
+	<title>Brad Davis Custom Page</title> 			<!-- This creates the title that will be shown on the window tab.-->
+	  
+										<!-- This creates a background for the entire website with an image url-->
+  	<body background="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/35789909_10211693150179550_8486775460439523328_n.jpg?_nc_cat=0&oh=dcb88d4349a71d0
+		964c6f6dde6bdef65&oe=5BDE9DD6" alt="City of Tegucigalpa, Honduras">
+
+	<h1 align="center" style="border:2px; border-style:solid; background-color:white; border-color:black; padding: .2em;" > Learn More About What Makes Brad Rad.</h1>
+	  <p align="center" style="color:White;"> This is a work in progress. Below is a link to my current website. I am working to create a new website 
+		utilizing html, css and javascript.</p>
+	
+						<!--This adds a link to the website and has it centered.-->
+	<div style="text-align:center">	
+		<a href="http://www.radBradDavis.com"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlyiCDSDUlYzL0IjuRc2aUM9vIoo4ZwVCz8lHiuPA
+			EnXMODbK" alt="Click here for current web page." width="42" height="42" border="0"> </a>  
+	</div>		
+
+	<p style="color:white;"> I recently had the privilege of taking a trip to Tegucigalpa, Honduras for a Mission Trip. 
+		I went with the expectation of seeing poverty and a society full of people who feel they got the short end of the straw in life. 
+		While I did see the rampant poverty, the people that I interacted with were anything but sour about their current station in life. </p>
+	
+	<p style="color:White;"> While in Honduras, I had the opportunity to work with a small team to pour a concrete floor for a family. 
+		This family had just received news the previous day that the man of the house (pictured in the front row in the center) 
+		had oral cancer and that there wasn’t anything that we could do for him. While this would send many people into a spiral, 
+		this family still seemed to have joy in their lives. They were living in unsanitary conditions and this part of their home still had a dirt floor. 
+		They were happy for what they had and what we were doing for them. They weren’t concerned with their wants, just their needs. </p>
+
+	<p style="color:White;"> I was also offered the opportunity to work with children outside of one of our work sites. I was able to sing and dance with the 
+		kids before washing hair and treating for lice. These kids had true joy in their lives. They lived in the moment, which allowed them to really 
+		participate in what was going on. All of them had smiles on their faces and seemed to feel like they were on top of the world. I was able to show 
+		them the love of God by simply being with them and treating them like the wonderful creations they are.</p> 
+
+	<p style="color:White;"> This trip has truly caused me to reexamine what my priorities in life are. If all I do is work and worry about what may happen 
+		later in life, I have all the focus on myself and what I want, not what I actually need. Joy in life doesn’t come from possessions but from 
+		relationships. We can always learn from others and we should never feel that we are superior to anyone else. With my focus readjusted, life is 
+		looking a little simpler and a much more satisfying. </p> 
+
+  </body>
+
+</html>
