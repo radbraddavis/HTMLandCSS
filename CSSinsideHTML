@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Brad Davis's Profile</title>
+  <style>
+{ 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: black;/*Color of text in body*/
+  background: grey;/*Color of backround in body*/
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: blue;/*Color of text on top navigation links*/
+}
+a:hover {
+  color: red;
+}
+
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+header {
+  text-align: center;
+  background: url('images/portland.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+width: 600px;
+  height: 350px;
+  border: 6px solid black;
+  transition: all .5s;
+}
+header .profile-image:hover {
+	transform: scale(1.5) rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+}
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  background-color: #222;
+  color: yellow;
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card:hover {
+  border-color: blue;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+  }
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+  color:black;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1200px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+}
+</style>
+
+
+
+  <link href="#" rel="stylesheet"></head>
+  <body>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Brad Davis</li>
+          <li><a href="http://radbraddavis.com">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/braddavisit/">LinkedIn Profile</a></li>
+          <li><a href="http://radbraddavis.com/2018-pictures/">Photos</a></li>
+          <li><a href="http://radbraddavis.com/contact-brad/">Contact</a></li>
+        </ul>
+    </div>
+
+    <header>
+      <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/18922755_10209110222927983_8350038560850337815_o.jpg?_nc_cat=0&oh=9dcc66545e5ab7212b2f19e26cdaa4a2&oe=5BA8AE41" alt="Brad Davis" class="profile-image">
+      <h1 class="tag name">Hello, my name is Brad.</h1>
+      <p class="tag location">I live in Spring Hill, Tennessee.</p>
+    </header>
+
+    <main class="flex">
+      <div class="card">
+        <h2>Background</h2>
+        <p align="center">Brad Davis is passionate about serving God by serving others. He currently lives in Spring Hill, TN, with his wife, Jessica Davis, and daughter, Deanna Davis. He enjoys spending time with inmates in the Davidson County jail system. He is passionate about people and technology and created the Empowerment Community Church website. He currently acts as the Administrator/Developer for the site, and assists with any other technology in use.</p>
+               <ul>
+          <li>To learn more, <a href="http://radbraddavis.com"> return to my site.</a></li>
+        </ul>
+      </div> 
+
+      <div class="card">
+        <h2>Goals</h2>
+        <p align="center">I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+	  <li>ASP.Net</li>
+	  <li>SQL</li>
+        </ul>
+        <p align="center">I am working on my skills in these areas and hope to provide quality code in the future.</p>
+      </div> 
+
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#" class="social twitter">Twitter</a></li>
+        <li><a href="#" class="social linkedin">LinkedIn</a></li>
+        <li><a href="#" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright">Copyright 2017, Brad Davis</p>
+    </footer>
+  </body>
+  </html>
