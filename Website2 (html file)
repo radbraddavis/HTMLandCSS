@@ -3,24 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Brad Davis's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="sample website css.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <link href="#" rel="stylesheet"></head>
   <body>
 
     <div class="main-nav">
         <ul class="nav">
           <li class="name">Brad Davis</li>
-          <li><a href="#">Home</a></li>
+          <li><a href="http://radbraddavis.com">Home</a></li>
           <li><a href="resume.html">Experience</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="http://radbraddavis.com/2018-pictures/">Photos</a></li>
+          <li><a href="http://radbraddavis.com/contact-brad/">Contact</a></li>
         </ul>
     </div>
 
     <header>
       <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/18922755_10209110222927983_8350038560850337815_o.jpg?_nc_cat=0&oh=9dcc66545e5ab7212b2f19e26cdaa4a2&oe=5BA8AE41" alt="Brad Davis" class="profile-image">
-      <h1 class="tag name">Hello, My name is Brad.</h1>
+      <h1 class="tag name">Hello, my name is Brad.</h1>
       <p class="tag location">I live in Spring Hill, Tennessee.</p>
     </header>
 
@@ -41,8 +40,6 @@
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
         </ul>
         <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
       </div> 
